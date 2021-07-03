@@ -1,0 +1,165 @@
+@media screen and (min-width: 481px){ 
+/* html,bodyの設定をする */
+html, body{
+  height:50%;
+  margin:0;
+  padding:0;
+}
+/* ヘッダー部分の設定 */
+header{
+  padding-bottom: 20px;
+  padding-top:20px;
+  height:70px;
+  font-size: 50px;
+  width: 100%;
+}
+/* 画面左の設定 */
+.items{
+  background-image:url(../imgs/orange.jpg);
+  display: flex;
+  width: 100%;
+  height:180px;
+}
+
+/* 画像を投稿するところ */
+/* 画像を投稿するところ全体 */
+.chart{
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.chart1{
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+.chart1 h1{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.serial{
+  display:flex;
+}
+/* ファイルを選択するボタン */
+.file-up{
+  width: 15px;
+  margin-left: 5px;
+  margin-right:20px;
+  padding-top:10px;
+}
+.menuimg{
+  color: white;
+  width: 15px;
+}
+/* テキストを書き込む */
+.caption{
+
+  width:80px;
+  margin-left: 25px;
+  
+}
+#caption{
+  width:200px;
+  height:50px;
+  font-size: 20px;
+}
+
+/* 送信ボタン */
+.submit{
+ 
+  margin-top: 20px;
+  margin-left: 220px;
+
+}
+
+#label1{
+  color: white;  
+  background-color: #ff6928;
+  padding: 6px;
+  border-radius: 12px;
+  font-size: 40px;
+
+}
+#label1:hover{
+  opacity:0.6;
+}
+#label2{
+  color: white;  
+  background-color: #ff6928;
+  padding: 6px;
+  border-radius: 12px;
+  font-size: 30px;
+}
+#label2:hover{
+  opacity:0.6;
+}
+
+
+/* 画像を表示するところ */
+/* 折り返しのための枠 */
+.menus{
+  z-index: 1;
+  display:flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  width:850px;
+  height:1350px;
+  padding-left: 25px;
+  margin:0 auto;
+
+  
+}
+/* 一つのブロックの中のブロック */
+.menu{
+  border-radius: 15px;
+  width:800px;
+  height: 800px;
+  margin: 10px;
+  margin-top:10px;
+  background-color: #FF8856;
+ 
+}
+/* 画像を入れる箱 */
+.menu-image{
+  width:700px;
+  height: 700px; 
+}
+/* 画像 */
+#photo{
+  width:600px;
+  height:600px;
+  margin-top: 60px;
+  margin-left: 95px;
+  border-radius:15px;
+
+}
+/* コメントを入れる箱 */
+.comment{
+  text-align: center;
+  width:800px;
+  height: 40px;
+  margin-top: 10px;
+
+}
+/* コメント */
+.comment p{
+  font-size: 50px;
+  color: white;
+
+}
+/* * フッターの設定 */
+footer {
+  background-color: #ff6928;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  color: white;
+  padding:7px;
+  font-size: 20px;
+  z-index: 10;
+  margin-top: 820px;
+  height:40px;
+  padding-top:12px;
+  
+}
+}
